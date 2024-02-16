@@ -1,0 +1,127 @@
+<style>
+  body{
+    display: flex;
+  }
+  ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    background-color:purple;
+    height: 100%;
+    text-align:center;
+  }
+  li{
+    float:left;
+  }
+  li a{
+  display: block;
+  color: white;
+  text-align:center;
+  padding: 16px;
+  text-decoration: none;
+  
+  }
+  li a:hover{
+    background-color: #111111;
+    
+
+  }
+  .text1{
+    padding-left: 70%;
+    text-align:center;
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+
+  }
+  h1{
+    text-align: center;
+    color: linear-gradient(red,yellow);
+    text-shadow: 2px 2px 5px red;
+  }
+  video{
+    border-radius: 10%;
+height:80%;
+width:70% ;
+  }
+  .g1{
+    display: grid;
+    grid-gap: 10;
+    grid-template-columns: 70% 30%;
+
+  }
+  .side{
+    background-color:aliceblue;
+    text-align: center;
+  border-radius: 3%;
+  height:80%;
+  }
+.profile{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+}
+.name{
+  text-align: center;
+}
+
+.pro{
+  background-color: blue;
+}
+.logo{
+  align-self: start;
+}
+.head{
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-area: auto;
+}
+video{
+  width:100%;
+}
+.video{
+  opacity: 0.7;
+  border: 2px;
+}
+.bar{height:40;}
+  </style>
+  <body>
+  <main class="main">
+    <div class="head"> 
+       <div class="bar">
+         <img src="assets/4.jpg" class="logo" width="100%">
+        </div>
+        <div >
+          <ul>
+            <li><a href="dashboard">HOME</a></li>
+            <li><a href="courses">COURSES</a></li>
+            <li><a href="#mylearning">MY LEARNING</a></li>
+            <li><a href="#certificates">CERTIFICATES</a></li>
+            <a  class="text1"><input type="search" value="search"></a>
+          </ul>
+        </div>
+      </div>
+      <h1>DEVELOPER's </h1>
+  <br>
+  <div class="g1">
+  <div>
+  <video controls="auto" class="video"> <source src="assets/3.mp4" type="video/mp4"> </video>
+</div>
+<div class="side">
+  <img src="assets/3.jpg" class="profile" alt="profile">
+  <p class="name">Hi,HUNTER</p>
+  <p><b>Name of the course :</b> ANGULAR JS</p> <b>course progress </b><progress value="85"  max="100" class="pro">70%</progress>
+<br><br>
+<b>Rating for the courrse    &#10028;&#10028;&#10028;&#10028;&#10025;</b></div>
+
+
+</div>
+  </main>
+  </body>
+
+
+
+

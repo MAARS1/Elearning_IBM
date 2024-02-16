@@ -1,0 +1,6 @@
+{
+  "routes": [
+    "/courses",
+    "/dashboard"
+  ]
+}
